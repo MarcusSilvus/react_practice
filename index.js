@@ -1,1 +1,6 @@
-ReactDOM.render(<h1>TEST</h1>, document.getElementById("root"))
+ReactDOM.render(
+  <ul>
+    <li>fart</li>
+    <li>poot</li>
+  </ul>, 
+  document.getElementById("root"))
