@@ -1,8 +1,13 @@
  function Header() {
   return ( 
     <header>
-        <nav>
-          <img src="react-icon.svg" width="40px"/>
+        <nav className="nav-bar">
+          <img src="react-icon.svg" className="img-logo"/>
+          <ul className="nav-items">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
         </nav>
     </header>
   )
@@ -24,7 +29,7 @@
 
  function Footer() {
   return (
-    <footer>
+    <footer className="main-footer">
         <small>&copy; 2022 Dookie Master. All rights reserved</small>
     </footer>
   )
@@ -32,7 +37,7 @@
  
  function MyPage() {
   return (
-    <div>
+    <div className="main-page">
       <Header />
       <Body />
       <Footer />

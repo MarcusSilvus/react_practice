@@ -1,0 +1,27 @@
+.main-page {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.img-logo {
+  width: 50px;
+}
+
+.main-footer {
+  color: white;
+  background-color: rgb(111, 108, 108);
+}
